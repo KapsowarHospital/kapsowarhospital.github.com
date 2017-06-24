@@ -1,0 +1,105 @@
+/* Move down content because we have a fixed navbar that is 50px tall */
+body {
+  padding-top: 50px;
+  padding-bottom: 20px;
+}
+footer{
+  text-align:left;
+}
+.fa-big{
+  font-size: 5em;
+}
+.kp-img{
+  /*float:right;*/
+/*
+  border: 4px solid #333;
+  
+*/
+  box-shadow: 0px 0px 20px #fbc337;
+  border-radius: 4px;
+  margin: 8px;
+}
+
+
+
+.black{
+  color: #333;
+}
+
+.orange{
+  color: #ee8c21;
+}
+
+.teal{
+  color: #18957c;
+}
+
+.yellow{
+  color: #fbc337;
+}
+
+h1,h2,h3,h4,h5{
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.text-bubble{
+  border-radius:10px;
+  padding: 5px;
+  background-color:  #ee8c21;
+}
+
+h1{
+  color: #333;
+}
+h2{
+  color: #18957c;
+}
+h3{
+  color: #ee8c21;
+}
+
+
+.fa{
+  color: #18957c
+}
+.fa-inverse{
+  color: #fff;
+}
+
+hr{
+  border-color: #fbc337
+}
+
+/** link overwrites **/
+a, a:focus, a:hover {
+  color: #18957c;
+}
+
+/********  bootstrap navbar overwrites  ********/
+.navbar-inverse{
+  background-color: #333;
+  border-color: #fbc337;
+}
+
+.navbar-inverse .navbar-brand{
+  color: #fff;
+  font-weight:bold;
+}
+
+.navbar-inverse .navbar-nav>li>a:focus, .navbar-inverse .navbar-nav>li>a {
+  color: #fff;
+  font-weight:bold;
+}
+
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover {
+  background-color: #333;
+  color: #18957c;
+}
+
+.navbar-inverse .navbar-brand:focus, .navbar-inverse .navbar-brand:hover {
+  color: #18957c;
+}
+
+.navbar-inverse .navbar-nav>li>a:focus, .navbar-inverse .navbar-nav>li>a:hover {
+  color: #18957c;
+}
